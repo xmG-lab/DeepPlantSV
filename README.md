@@ -1,6 +1,5 @@
 # DeepPlantSV
 
-A cleaned and modularized version of the original single-file script for pine DNA fragment classification.
 
 ## What is included
 
