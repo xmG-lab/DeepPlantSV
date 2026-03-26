@@ -1,4 +1,4 @@
-# pine-fcgr-github
+# DeepPlantSV
 
 A cleaned and modularized version of the original single-file script for pine DNA fragment classification.
 
@@ -14,14 +14,14 @@ A cleaned and modularized version of the original single-file script for pine DN
 ## Project structure
 
 ```
-pine-fcgr-github/
+DeepPlantSV/
 ├── README.md
 ├── requirements.txt
 ├── pyproject.toml
 ├── scripts/
 │   ├── train.py
 │   └── predict.py
-└── src/pine_fcgr/
+└── src/DeepPlantSV/
     ├── __init__.py
     ├── constants.py
     ├── utils.py
