@@ -1,0 +1,5 @@
+DEFAULT_BWA_PATH = "bwa"
+DEFAULT_SAMTOOLS_PATH = "samtools"
+DEFAULT_BCFTOOLS_PATH = "bcftools"
+MAX_LENGTH = 2100
+VOCAB = {"A": 0, "C": 1, "G": 2, "T": 3}
