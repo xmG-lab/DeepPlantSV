@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pine-fcgr"
+version = "0.1.0"
+description = "Pine DNA fragment classification with FCGR, CNN/Transformer, and bioinformatics preprocessing."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Serin Sempu"}]
+dependencies = [
+  "numpy",
+  "pandas",
+  "torch",
+  "tqdm",
+  "Pillow",
+  "matplotlib",
+  "scikit-learn",
+  "imbalanced-learn",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
